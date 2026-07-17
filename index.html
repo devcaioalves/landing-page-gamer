@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <title>GamerGear</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>GamerGear</h1>
+
+    <nav>
+
+        <a href="#sobre">Sobre</a>
+        <a href="#cep">Entrega</a>
+        <a href="#contato">Contato</a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div>
+
+        <h2>Periféricos Gamer de Alta Performance</h2>
+
+        <p>
+            Mouse, teclado, headset e muito mais para elevar sua gameplay.
+        </p>
+
+        <button id="btnComprar">
+            Saiba Mais
+        </button>
+
+    </div>
+
+    <img
+    src="https://images.unsplash.com/photo-1593640408182-31c70c8268f0"
+    alt="Setup Gamer">
+
+</section>
+
+<section id="sobre">
+
+    <h2>Sobre a GamerGear</h2>
+
+    <p>
+
+        Trabalhamos com os melhores periféricos gamer para oferecer
+        precisão, conforto e desempenho para jogadores profissionais
+        e casuais.
+
+    </p>
+
+</section>
+
+<section class="beneficios">
+
+    <div>
+
+        <h3>🎮 Mouse Gamer</h3>
+
+        <p>Alta precisão e sensor profissional.</p>
+
+    </div>
+
+    <div>
+
+        <h3>⌨ Teclado Mecânico</h3>
+
+        <p>Switches rápidos e iluminação RGB.</p>
+
+    </div>
+
+    <div>
+
+        <h3>🎧 Headset</h3>
+
+        <p>Som surround e microfone com redução de ruído.</p>
+
+    </div>
+
+</section>
+
+<section id="cep">
+
+<h2>Consultar Entrega</h2>
+
+<input
+type="text"
+id="cepInput"
+placeholder="Digite seu CEP">
+
+<button onclick="buscarCEP()">
+
+Buscar
+
+</button>
+
+<p id="resultado"></p>
+
+</section>
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Nome"
+required>
+
+<input
+type="email"
+placeholder="Email"
+required>
+
+<textarea
+placeholder="Mensagem"></textarea>
+
+<button type="submit">
+
+Enviar
+
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 GamerGear
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
